@@ -1,0 +1,15 @@
+{
+  "name": "7s8-tutor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "some-file.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "SaintMiner <dinden290@gmail.com> (https://github.com/SaintMiner)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
