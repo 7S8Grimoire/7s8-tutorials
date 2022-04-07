@@ -53,6 +53,9 @@ typeof height; // 'number'
  * hasChildren
 */
 
+// Output to console
+let myOutput = "variable";
+console.log(myOutput);
 
 
 

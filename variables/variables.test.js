@@ -6,4 +6,4 @@ test('Checking variables type', () => {
   expect(typeof result.age).toBe('number');
 });
 
-// npm test -- .\variables\variables.test.js
+// npm test -- variables/variables.test.js

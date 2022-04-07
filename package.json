@@ -2,8 +2,10 @@
   "name": "7s8-tutor",
   "version": "1.0.0",
   "description": "",
-  "main": "some-file.js",
+  
   "scripts": {
+    "variables": "node variables/variables.js",
+    "operators": "node operators",
     "test": "jest"
   },
   "keywords": [],

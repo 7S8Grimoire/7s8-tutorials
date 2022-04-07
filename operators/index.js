@@ -149,6 +149,12 @@ console.log(`!${false} = ${!false}`);
 
 title("Logical Operators + Comparison operators");
 
+console.log(`num1 > num2 && num1 == num3 | ${num1} > ${num2} && ${num1} == ${num3} | ${num1 > num2 && num1 == num3}`);
+console.log(`num1 < num2 && num1 == num3 | ${num1} < ${num2} && ${num1} == ${num3} | ${num1 < num2 && num1 == num3}`);
+console.log(`num1 < num2 && num1 === num3 | ${num1} < ${num2} && ${num1} === ${num3} | ${num1 < num2 && num1 === num3}`);
+console.log(`num1 < num2 && num1 === num3 || 1 | ${num1} < ${num2} && ${num1} === ${num3} || ${1} | ${num1 < num2 && num1 === num3 || 1}`);
+console.log(`You can convert everything to boolean using "!"  !1 / !!1 / !!"kekw" / !!"" | ${!1} / ${!!1} / ${!!"kekw"} / ${!!""}`)
+
 
 
 
