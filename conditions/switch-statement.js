@@ -43,12 +43,13 @@ module.exports = () => {
       console.log("No such (-_-)");          
   }
   
-  if (choose != 3) {
+  if (choose != 3 && choose >= 1 && choose <= 5) {
     console.log(text);
     console.log('\nTry the code!');
     input = +prompt("Input: ");
     require(file)(input);
-  } else {
+  } else if (choose == 3) {
+    console.log(text);
     console.log("\nYou are already working with this code 😂");
   }
 }
