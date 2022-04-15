@@ -2,11 +2,12 @@
   "name": "7s8-tutor",
   "version": "1.0.0",
   "description": "",
-  
   "scripts": {
     "variables": "node variables/variables.js",
     "operators": "node operators",
-    "test": "jest"
+    "conditions": "node conditions",
+    "test": "jest",
+    "testtest": "npm run test"
   },
   "keywords": [],
   "author": "SaintMiner <dinden290@gmail.com> (https://github.com/SaintMiner)",
@@ -16,6 +17,8 @@
   },
   "dependencies": {
     "boxen": "^5.1.2",
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "moment": "^2.29.2",
+    "prompt-sync": "^4.2.0"
   }
 }

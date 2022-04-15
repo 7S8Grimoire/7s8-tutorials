@@ -1,3 +1,7 @@
+console.log(...["a", "b", "c"]);
+
+
+
 const chalk = require('chalk');  
 const boxen = require('boxen');
 
@@ -98,6 +102,8 @@ console.log(`z: ${z} - now is the variable with value "text" and type string`);
 console.log(`z + "variable" = ${z + "variable"}`);
 console.log(`z + 1 = ${z + 1}`);
 console.log(`z + true = ${z + true}`);
+console.log("\"" + 1 + "");
+console.log('\'');
 console.log(`z - "text" = ${z - "text"} | Subtraction with text will return NaN but!`);
 console.log(`"4" - "3" = ${"4" - "3"} | If string text is only numbers then you will get result :3`);
 

@@ -1,3 +1,13 @@
+console.log(...["a", "b", "c"]);
+
+const asArr = [];
+asArr["thirty"] = 30;
+console.log(asArr["thirty"]);
+console.log(asArr.thirty);
+
+let first = "seconds"
+console.log(myObj[first]) // <== myObj.seconds
+
 /**** Declaring & Scopes ****/
 
 superGlobalVar = 101; // This is a global of global variable - accessible everywhere in any project file
@@ -13,7 +23,11 @@ if (true) { // <== block open
   hi = "Hi!"
 
 } // <== block close
-hi = "Hello!" // <== error
+
+
+
+const arr = []
+
 
 /**** Types ****/
 
@@ -27,6 +41,7 @@ let list = [] // Array
 let nothing = null; // Da - there is nothing, this is false and 0 and object (╯°□°）╯︵ ┻━┻ | converting null to number is 0
 let alsoNothing = undefined; // Da - also nothing but really nothing, this is also false | converting null to number is NaN (Not a Number)
 let doWork = () => {} // Function - yes, you can save your functions in variable
+
 
 let person = { // Object
   name: "Stepan",
@@ -56,6 +71,7 @@ typeof height; // 'number'
 // Output to console
 let myOutput = "variable";
 console.log(myOutput);
+
 
 
 
