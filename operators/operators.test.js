@@ -1,6 +1,6 @@
 const { subtaskLargest, subtaskLargestOrGreaterThan20, subtaskAllLessThan0 } = require('./task');
 
-test('Checking variables type', () => {
+test('Checking numbers', () => {
   expect(subtaskLargest(5, 2, -1)).toBe(true);
   expect(subtaskLargest(7, 10, 3)).toBe(false);
   expect(subtaskLargest(3, 3, 3)).toBe(false);
@@ -15,5 +15,3 @@ test('Checking variables type', () => {
   expect(subtaskAllLessThan0(6, -1, -3)).toBe(false);
   expect(subtaskAllLessThan0(0, 0, 0)).toBe(false);
 });
-
-// npm test -- operators/operators.test.js

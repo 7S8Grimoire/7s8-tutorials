@@ -1,3 +1,5 @@
+// npm test -- operators/operators.test.js
+
 // Check if the first number is the largest
 exports.subtaskLargest = (num1, num2, num3) => {
   return;
