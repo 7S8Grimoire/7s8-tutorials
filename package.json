@@ -6,8 +6,8 @@
     "variables": "node variables/variables.js",
     "operators": "node operators",
     "conditions": "node conditions",
-    "test": "jest",
-    "testtest": "npm run test"
+    "arrays": "node arrays-and-you",
+    "test": "jest"
   },
   "keywords": [],
   "author": "SaintMiner <dinden290@gmail.com> (https://github.com/SaintMiner)",

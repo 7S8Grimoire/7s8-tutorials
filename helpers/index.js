@@ -11,3 +11,14 @@ exports.keypress = async () => {
     resolve()
   }))
 }
+
+exports.pressToContinue = async () => {
+  console.log("Press any key to continue...");
+  await this.keypress();
+}
+
+exports.delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+exports.loop = (times, callback) => {
+  Array(times).fill(0).forEach((item, i) => callback(i));
+};
